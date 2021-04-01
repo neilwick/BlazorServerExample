@@ -1,0 +1,9 @@
+.blog {
+    list-style: none;
+    background-color: rgb(252, 196, 178);
+}
+
+.blog-date {
+    font-weight: bold;
+    font-size: smaller;
+}
