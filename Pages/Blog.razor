@@ -7,7 +7,7 @@
 
 <h1>Blog</h1>
 
-@UserData.Name
+Welcome, @UserData.Name!
 
 <h2>Add Entry</h2>
 <div>
@@ -38,7 +38,7 @@
     protected override async Task OnInitializedAsync() {
         using var ctx = ContextFactory.CreateDbContext();
         
-        UserData.Name="bob";
+        UserData.Name="Neil";
         UserData.ComponentLoadCount++;
 
         @* var e = await ctx.Entries.OrderByDescending(e=>e.Title).ToListAsync();
